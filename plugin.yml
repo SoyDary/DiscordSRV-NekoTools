@@ -1,0 +1,16 @@
+name: DiscordSRV-NekoTools
+main: me.Dariela.DSRVNekoTools.NekoMain
+depend: [DiscordSRV, PlaceholderAPI, LuckPerms, Essentials]
+author: Dariela
+version: BETA-0.1
+api-version: 1.17
+commands:
+   discordtools:
+      description: Main command
+      usage: /<command>
+   vincular:
+      description: Vincula tu cuenta de minecraft con discord
+      usage: /<command> DiscordID#0000
+   desvincular:
+      description: Desvincula tu cuenta de minecraft con discord
+      usage: /<command>
